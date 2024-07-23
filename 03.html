@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+    }
+    
+    .container{
+        width: 100vw;
+        height: 100vh;
+        display:flex;
+        background-color: #8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 470px;
+        background-color: white;
+        border-radius: 10px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        align-items: center;
+        
+        
+    }
+    .card h1{
+        font-size: 20px;
+        /* justify-content: center; */
+    }
+    img{
+        width: 100%;
+        height: 30%;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    .textbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+       padding: 20px;
+        
+
+    }
+
+    
+
+</style>
+<body>
+    <div class="container">
+        <div class="card">
+                <img src="icon.jpg" alt="icon">
+                <div class="textbox">
+                    <h1>Order Summary</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum laboriosam veniam architecto ea dolore laudantium.</p>
+                </div>
+                
+                <div></div>
+                <button>proceed to payment</button>
+                <a href="#">Cancel Order</a>
+
+        </div>
+    </div>
+</body>
+</html>
